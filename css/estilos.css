@@ -3,7 +3,6 @@
 .body{
     background-color: rgb(42, 73, 75);
 }
-
 *{
     margin: 0;
     padding: 0;
@@ -24,6 +23,7 @@ header{
     height: 100% ;
     margin: auto ;
     display: flex ;
+    background-color: rgb(34, 102, 102);
     justify-content: space-between;
     align-items: center;
     padding: 0px 20px;
@@ -46,7 +46,7 @@ header{
     align-items: center;
     background-color: transparent;
     transition: background-color 0.3s ease ;
-    position: sticky;
+    position: f;
     top: 0 ;
     width: 100%;
     z-index: 1000;
@@ -69,12 +69,12 @@ header{
     color: springgreen;
     font-size: 16px;
     position: relative;
-    transition: all 300ms;
+    transition: all 800ms;
 
 }
 
 .menu nav ul li a:hover {
-    color:mediumturquoise;
+    color:goldenrod;
 }
 
 .boton{
@@ -86,10 +86,10 @@ header{
     border: 2px solid ;
     border-radius: 30px;
     margin: 0px 20px;
-    transition: all 300ms;
+    transition: all 800ms;
 }
 .boton:hover{
-    color: mediumturquoise;
+    color: goldenrod;
 }
 .redes_sociales{
     display: flex;
@@ -100,4 +100,74 @@ header{
 .redes_sociales img{
     width: 28px;
     margin: 6px;
+}
+
+.main {
+    width: 100%;
+    height: 10px;
+    color: red;
+}
+.container_cover {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: var(--main_color-secundary);
+}
+
+.cover {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.text_cover {
+    width: 100%;
+    padding-right: 150px;
+}
+
+.text_cover h1 {
+    font-size: 50px;
+    color: aqua;
+}
+
+.text_cover p {
+    font-size: 30px ;
+    margin-top: 40px;
+    color: aquamarine;
+}
+
+.btn_text {
+    display: block;
+    width: 150px;
+    margin-top: 40px;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: 500;
+    background: springgreen;
+    color: rgb(42, 73, 75);
+    border-radius: 10px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 800ms;
+}
+
+.btn_text:hover {
+    background: transparent;
+    border: 2px solid goldenrod;
+    color: goldenrod;
+}
+
+.image_cover {
+    width: 100%;
+}
+
+.image_cover img {
+    width: 550px;
+}
+
+.card_trust box_card-primary img{
+    width: 200px;
+    height: 200px;
 }

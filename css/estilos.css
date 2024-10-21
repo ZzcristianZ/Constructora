@@ -191,3 +191,71 @@ header{
     transform: scale(1.05);
 }
 
+/*generador de confianza*/
+.container_de_confianza{
+    padding-top: 100px;
+}
+
+.inicio_de_confianza{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+
+.texto_de_confianza{
+    max-width: 800px;
+    margin:auto;   
+    text-align: center;
+}
+
+.texto_de_confianza p{
+    color: brown;
+    letter-spacing: 4px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.texto_de_confianza h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: rgba(50, 54, 159, 0.492);
+}
+
+.targetas_confianza{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.targetas{
+    max-width: 350px;
+    padding: 60px 40px;
+    border: 1px solid #e6e6e6;
+    border-radius: 20px;
+    margin: 14px;
+    transition: all 500ms;
+}
+
+.targetas:hover{
+    border: 1px solid transparent;
+    box-shadow: 0px 6px 50px -20px rgba(0,0,0,0.2);
+}
+
+.targetas img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+.targetas h2{
+    font-size: 24px;
+    margin-top: 40px;
+    font-weight: 500;
+}
+
+.targetas p{
+    margin-top: 20px;
+}
+

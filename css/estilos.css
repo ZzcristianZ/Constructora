@@ -287,7 +287,7 @@ header{
 }
 
 .texto_nosotros p{
-    font-size: var(--text_paragraph);
+    font-size: 16px;
     margin-top: 40px;
     color: #4A343A;
 }
